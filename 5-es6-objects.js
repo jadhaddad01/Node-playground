@@ -20,10 +20,10 @@ const product = {
     salePrice: undefined
 }
 
-// const label = product.label
+// const productLabel = product.label
 // const stock = product.stock
 // const rating = undefined
 
-const { label, stock, rating } = product
-console.log(label, stock);
+const { label: productLabel, stock, rating } = product
+console.log(productLabel, stock);
 console.log(rating);
