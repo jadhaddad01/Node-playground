@@ -10,3 +10,18 @@ const user = {
 }
 
 console.log(user);
+
+// Object destructuring
+
+const product = {
+    label: 'Red Notebook',
+    price: 3,
+    stock: 201,
+    salePrice: undefined
+}
+
+// const label = product.label
+// const stock = product.stock
+
+const { label, stock } = product
+console.log(label, stock);
