@@ -22,6 +22,8 @@ const product = {
 
 // const label = product.label
 // const stock = product.stock
+// const rating = undefined
 
-const { label, stock } = product
+const { label, stock, rating } = product
 console.log(label, stock);
+console.log(rating);
