@@ -29,7 +29,7 @@ const product = {
 // console.log(productLabel, stock);
 // console.log(rating);
 
-const transaction = (type, { label, stock }) => { // destructure in param
+const transaction = (type, { label, stock = 0 } = {}) => { // destructure in param
     console.log(type, label, stock);
 }
 
